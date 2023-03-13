@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+html {
+  font-size: 10px;
+}
+p {
+  font-size: 1.6rem;
+}
+
+#main {
+  text-align: center;
+  font-family: "Segoe UI";
+  height: auto;
+  background-color: #eeeeee;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+#title {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 30px;
+  background: #eeeeee;
+}
+
+#title h1 {
+  line-height: 60px;
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+#title p {
+  font-size: 1.6rem;
+  padding-bottom: 16px;
+}
+
+#img-div {
+  /* margin: 10px 0px; */
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+p#img-caption {
+  margin-top: 15px;
+  padding-bottom: 16px;
+}
+
+#tribute-info {
+  font-size: 16px;
+}
+
+section#tribute-info .headline {
+  font-size: 1.17em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+section#tribute-info ul {
+  max-width: 500px;
+  margin: auto;
+  margin-left: 50px;
+  display: inline-block;
+  text-align: justify;
+}
+
+section#tribute-info ul > li {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+section#tribute-info div.blockquote {
+  font-style: italic;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+section#tribute-info div.blockquote > p {
+  margin: 16px 0;
+}
+
+#tribute-info > #add-info {
+  display: block;
+  font-size: 1.17em;
+  margin: 1em 0;
+}
